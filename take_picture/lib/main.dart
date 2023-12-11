@@ -19,9 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const HomeScreen(title: 'Take Picture'),
-    );
-  }
-}
+    );}}
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key, required this.title});
